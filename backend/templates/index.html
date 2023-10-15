@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} History {% endblock %}</h1>
+    {% for message in messages %}
+        <div class='message'>
+            <h3>{{ message['title'] }}</h3>
+            {% for line in message['content'] %}
+                <br> {{ line }} </br>
+            {% endfor %}
+        </div>
+    {% endfor %}
+{% endblock %}

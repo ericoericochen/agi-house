@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Automate your Flow! {% endblock %}</h1>
+    <form method="post">
+        <label for="title">Prompt</label>
+        <br>
+        <input type="text" name="title"
+               placeholder="prompt" size="50"
+               value="{{ request.form['title'] }}"></input>
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}

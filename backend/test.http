@@ -1,0 +1,23 @@
+POST http://127.0.0.1:5000/create
+content-type: application/json
+
+{
+    "title": "INGEST https://jsonplaceholder.typicode.com/"
+}
+
+###
+POST https://e238-24-23-158-128.ngrok-free.app/create
+content-type: application/json
+
+{
+    "title": "INGEST https://jsonplaceholder.typicode.com/"
+}
+
+
+###
+POST https://e238-24-23-158-128.ngrok-free.app/create
+content-type: application/json
+
+{
+    "title": "API get posts with userId=2"
+}

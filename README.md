@@ -1,1 +1,1 @@
-# agi-house
+# OS-GPT
